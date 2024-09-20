@@ -6,7 +6,7 @@ const divide = (a, b) => a / b;
 function calculate(a, sign, b) {
   switch (sign) {
     case "+":
-      return add(a, b);
+      return add(Number(a), Number(b));
     case "-":
       return subtract(a, b);
     case "*":
